@@ -6,7 +6,7 @@ import { faDatabase, faFileCode } from "@fortawesome/free-solid-svg-icons";
 const Skills = () => {
     return (
         <div className="skills">
-            <h1 className="py-5">My Skills</h1>
+            <h1 className="py-5"><b>My Skills</b></h1>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-md-6 col-sm-6">

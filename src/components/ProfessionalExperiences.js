@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
 function ProfessionalExperiences() {
     return (
         <div className="professionalexperiences">
             <div className="d-flex justify-content-center my-5">
-                <h1>Professional Experiences</h1>
+                <h1><b>Professional Experiences</b></h1>
             </div>
             <div className="container professionalexperiences-wrapper">
                 <div className="timeline-block timeline-block-right">

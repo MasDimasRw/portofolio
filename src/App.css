@@ -369,3 +369,94 @@ nav ul li {
     width: 100%;
   }
 }
+
+
+/************************ Project Funding Experiences ************************/
+.projectfundingexperiences {
+  background-color: var(--primary-light-grey);
+  padding: 0.7rem;
+}
+
+.projectfundingexperiences-wrapper {
+  position: relative;
+  padding: 3.125rem 0;
+  overflow: hidden;
+}
+
+.projectfundingexperiences h1 {
+  text-transform: uppercase;
+  color: var(--primary-dark);
+}
+
+.projectfundingexperiences-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--primary-grey);
+  z-index: 1;
+}
+
+.timelinepf-block {
+  width: calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+
+.timelinepf-block-right {
+  float: right;
+}
+
+.timelinepf-block-left {
+  float: left;
+  direction: rtl;
+}
+
+.markerpf {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.3125rem solid var(--primary-green);
+  background: var(--primary-dark-grey);
+  margin-top: 0.625rem;
+  z-index: 3;
+}
+
+.timelinepf-content {
+  width: 95%;
+  padding: 0 0.9375rem;
+  color: var(--primary-dark-grey);
+  direction: ltr;
+}
+
+.timelinepf-content h3 {
+  margin-top: 0.3125rem;
+  color: var(--primary-dark);
+  font-weight: 900;
+}
+
+
+/*-------------------- MEDIA ------------------*/
+@media(max-width: 768px) {
+.projectfundingexperiences .container {
+  padding-left: 0;
+}
+
+  .projectfundingexperiences-wrapper::before {
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+  .timelinepf-block-right {
+    float: none;
+    width: 100%;
+  }
+  .timelinepf-block-left {
+    float: none;
+    direction: ltr;
+    width: 100%;
+  }
+}
